@@ -1,0 +1,66 @@
+{% extends 'core/base.html' %}
+{% block content %}
+
+    <div class="container mt-5">
+        <h1 class="text-warning mb-5 border-bottom">CONTACT US-</h1>
+        <div class="row text-white mb-5">
+            <p class="mx-auto mb-5">
+                <button type="button" class="btn btn-outline-info">
+                Appropriate goals might be to improve the customer experience by aiming for
+                 faster response time or improved scores.
+                </button>
+            </p>
+            <div class="col-sm-9 mb-5">
+                <form action="">
+                    <div style="color:crimson;font-size: 20px;" class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputName">Enter Your Name:</label>
+                            <input type="text" class="form-control" 
+                            id="inputName"required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail">Enter Your Email:</label>
+                            <input type="email" class="form-control" 
+                            id="inputEmail"required>
+                        </div>
+                
+                    </div>
+                    <div style="color:crimson;font-size: 20px;" class="form-group" >
+                        <label for="inputNumber">Enter Your Mobile Number:</label>
+                        <input type="number" class="form-control" id="inputNumber">
+                    </div>
+                    <div style="color:crimson;font-size: 20px;" class="mb-3">
+                        <label for="inputTextarea">Enter Your Message:</label>
+                        <textarea class="form-control" id="inputTextarea" rows="1" required></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-3 center">
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fa-solid fa-location-dot mt-4 fa-2x i-color"></i>
+                        <p>Pune, Mumbai, India</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone mt-4 fa-2x i-color"></i>
+                        <p>+91 9028952900</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope mt-4 fa-2x i-color"></i>
+                        <p>umeshmokashse2001@gmail.com</p>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="http://www.linkedin.com/in/umesh-mokashe-352024204" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        <a href=" https://twitter.com/UmeshMokashe?t=5wHkjRJ1ao1jabloyMgCTQ&s=08" target="_blank"><i class="fa-brands fa-twitter fa-2x "></i></a>
+        <a href="https://m.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2x "></i></a>
+        <a href="https://www.instagram.com/invites/contact/?i=22nnuy7ea6kv&utm_content=q5fpvbp" target="_blank"><i class="fa-brands fa-instagram fa-2x "></i></a>
+        <a href="https://whatsapp.com/dl/code=4A3sXxjqfI" target="_blank"><i class="fa-brands fa-whatsapp fa-2x "></i></i></a>
+    </div>
+
+{% endblock content %}

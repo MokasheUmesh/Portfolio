@@ -1,0 +1,37 @@
+
+{% extends 'core/base.html' %}
+{% load static %}   
+{% block content %} 
+<div class=" mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/abc.jpg' %}" alt="ProfilePic" 
+    class="img-thumbnail" width="150px" height="50px">
+
+    </div>
+    <div class="text-white mt-5 text-justify">
+        <h2 class="font-weight-bold st-font">Hello,</h2>
+
+        <div class="px-4" style="line-height: 2rem;">
+            <p style="text-indent:100px;">
+                I am<b class="text-warning"> Umesh Mokashe</b> Graduate from Pune University 
+                BBA(Computer Application)in 2019-2022.Python Full Stack Development course complition
+                 in 2023, Website Designer || Html || Css || Javascript || Bootstrap || Sql.</p>
+                <p> To excel with my abilities by exploring new technologies upgrading knowledge 
+                    and grow with an organization be helpful in its productivity enhancement. I have 
+                    knowledge of python language as well as experience in HTML, CSS, JAVASCRIPT, 
+                    BOOTSTRAP language used for website design and development. I will work as a 
+                    team leader of our company and to enhance my own skills. <br> 1 Years of Experience in programming language.
+                    • Proficient Knowledge of website design.
+                    • Bug Reporting and bug re-verification.
+                    • Worked on data Django framework.
+                    • Certified as python full stack training.
+               <b class="text-warning"> IT Technology</b> good industry for developement our own skills.
+            </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>    
+        <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+    </div>
+</div>
+{% endblock content %}

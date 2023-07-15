@@ -1,0 +1,33 @@
+/*Font*/
+.st-font{
+    font-family: 'Roboto', sans-serif;
+    
+}
+html,body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+/*  Services Icon Color*/
+
+.i-color{
+    color:yellow;
+}
+
+/* Srvices Sub-title Color*/
+.ss-color{
+    color: silver;
+}
+a.nav-link{
+    color: whitesmoke;
+}
+a.nav-link:hover{
+    color: black;
+    background-color:burlywood;
+}
+a.nav-link.active{
+    color: black;
+    background-color:coral;
+    font-weight: bold;
+}
